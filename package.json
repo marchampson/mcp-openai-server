@@ -2,11 +2,11 @@
     "name": "openai-mcp-server",
     "version": "1.0.0",
     "description": "A Model Context Protocol (MCP) server for OpenAI API",
-    "main": "openai-mcp-server-new.js",
+    "main": "openai-mcp-server.js",
     "type": "module",
     "scripts": {
-      "start": "node openai-mcp-server-new.js",
-      "dev": "nodemon --signal SIGTERM openai-mcp-server-new.js"
+      "start": "node openai-mcp-server.js",
+      "dev": "nodemon --signal SIGTERM openai-mcp-server.js"
     },
     "keywords": [
       "mcp",
